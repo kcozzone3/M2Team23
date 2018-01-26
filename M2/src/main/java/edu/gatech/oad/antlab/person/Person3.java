@@ -17,7 +17,7 @@ public class Person3 {
 	 * @param pname the person's real name
 	 */
 	public Person3(String pname){
-	  name = pname;
+	    name = pname;
 	}
 
 	/**
@@ -29,7 +29,7 @@ public class Person3 {
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+	    return name + calc(input);
 	}
 
 	/**
@@ -43,6 +43,10 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+        String reversed = "";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
+        }
+	    return reversed;
 	}
 }
