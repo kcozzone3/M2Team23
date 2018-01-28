@@ -30,7 +30,16 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
+      String transformed = "";
+      char temp;
+
+      for (int i = 0; i < input.length(); i++) {
+        temp = input.charAt(i);
+        temp += 1;
+
+        transformed += temp.toString();
+      }
+
       return null;
     }
     
@@ -46,5 +55,8 @@ public class Person4 {
       return name + calc(input);
     }
 
+    public static void main(String[] args) {
+        Person4 Evan = new Person4("Evan");
+        Evan.toString("abc123")
+    }
 }
-
