@@ -1,0 +1,8 @@
+plugins{
+    id 'base'
+}
+apply plugin: 'java'
+
+//task compileJava(type:JavaCompile){
+ //   from 'src'
+//}
