@@ -12,7 +12,7 @@ jar{
 }
 
 dependencies{
-  compile files ('M2/lib/resources.jar')
+  compile files ('lib/resources.jar')
 }
 
 
